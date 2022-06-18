@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: #134E5E;
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E);
+    background: linear-gradient(to right, #71B280, #134E5E);
+
+    .row {
+    
+        .col-lg-6 {
+            
+            .fontTitle {
+                font-family: 'Montserrat', sans-serif;
+                color: #FFFFFF;
+                text-transform: uppercase;
+            }
+
+        }
+
+        .card {
+
+            .card-body {
+
+                .text-center {
+
+                    .textError {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .container {
+        .fontTitle {
+            font-family: 'Montserrat', sans-serif;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+    }
+
+    .text-center {
+        
+        .textError {
+            font-size: 1rem;
+        }
+    }
+}
